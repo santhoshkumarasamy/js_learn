@@ -1,19 +1,30 @@
 body{
     display: grid;
-    place-content: center;
+    /* position: relative; */
+    /* padding: auto; */
+    place-items: center;
+    height: 100vh;
+    margin: 0;
 }
 #mainBox{
-    margin: auto auto;
+    /* margin: auto auto; */
     text-align: center;
-
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 12px;
 }
 button{
     margin: 10px;
     font-size: 20px;
     padding: 3px;
-    border: 1px solid;
-    box-shadow:  0  0 2px grey;
+    border: 0px solid;
+    box-shadow:  0  0 5px grey;
     border-radius: 12px;
     height: 40px;
     width: 150px;
+    cursor: pointer;
+}
+h3{
+    padding: 5px;
 }
