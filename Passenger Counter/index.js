@@ -12,7 +12,7 @@ function save(){
     var pre= count
     count =0
     setCount(count)
-    document.getElementById('completeBatch').innerText +=pre+ "-";
+    document.getElementById('completeBatch').textContent +=pre+ " - ";
 }
 
 setCount(count)
