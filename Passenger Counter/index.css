@@ -2,3 +2,18 @@ body{
     display: grid;
     place-content: center;
 }
+#mainBox{
+    margin: auto auto;
+    text-align: center;
+
+}
+button{
+    margin: 10px;
+    font-size: 20px;
+    padding: 3px;
+    border: 1px solid;
+    box-shadow:  0  0 2px grey;
+    border-radius: 12px;
+    height: 40px;
+    width: 150px;
+}
