@@ -1,23 +1,18 @@
 let count =0;
-let batches=[]
 // console.log(count)
 
 function increment(){
-    count = count +1 
+    count +=1 
     setCount(count)
 }
 function setCount (count){
     document.getElementById('count').innerText=count
 }
-function batchCompleted(){
-    batches.push(count)
+function save(){
+    var pre= count
     count =0
-    let batch = ''
-    batches.map((item)=>{
-        batch= batch + item+ " " 
-    })
     setCount(count)
-    document.getElementById('completeBatch').innerText=batch;
+    document.getElementById('completeBatch').innerText +=pre+ "-";
 }
 
 setCount(count)

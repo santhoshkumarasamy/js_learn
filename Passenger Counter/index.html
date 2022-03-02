@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>People Counter</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <h1>People Entered</h1>
@@ -12,8 +13,9 @@
     <button id="increment-btn" onclick="increment()">
         Increment
     </button>
-    <button id="batch" onclick="batchCompleted()">Add Batch</button>
-    <div id="completeBatch"></div>
+    <button id="save-btn" onclick="save()">Save</button>
+    <h2>Previous Batch</h2>
+    <h3 id="completeBatch"></h3>
     <script src="index.js"></script>
 </body>
 </html>
